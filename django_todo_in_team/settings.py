@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'todo_in_team.apps.TodoInTeamConfig'
+    'todo_in_team.apps.TodoInTeamConfig',
+
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
